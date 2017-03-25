@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelLayout">
+        <attr name="label_horizontalSpacing" format="dimension"/>
+        <attr name="label_verticalSpacing" format="dimension" />
+        <attr name="label_checkboxLayout" format="reference" />
+        <attr name="label_enableDivider" format="boolean" />
+        <attr name="label_dividerHeight" format="dimension" />
+        <attr name="label_dividerColor" format="color" />
+    </declare-styleable>
+</resources>
