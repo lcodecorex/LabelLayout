@@ -13,7 +13,7 @@ LabelLayout只是用于标签布局(layout)，搭配CheckBox使用，标签样�
 - label_dividerColor 行间分割线的颜色
 
 ### 使用
-#### 添加gradle依赖(待审核)
+#### 添加gradle依赖
 ```
 compile 'com.lcodecorex:labellayout:1.0.1'
 ```
