@@ -40,7 +40,7 @@ public interface ILabel {
     app:label_horizontalSpacing="16dp"
     app:label_verticalPadding="16dp"
     app:label_verticalSpacing="32dp"
-    app:enableDivider="true" />
+    app:label_enableDivider="true" />
 ```
 
 2. 设置标签,使用setLabels()方法
@@ -80,8 +80,8 @@ label_me.setOnCheckChangedListener(new LabelLayout.OnCheckListener() {
     app:label_horizontalSpacing="16dp"
     app:label_verticalPadding="16dp"
     app:label_verticalSpacing="32dp"
-    app:checkboxLayout="@layout/checkbox_gray"
-    app:enableDivider="true" />
+    app:label_checkboxLayout="@layout/checkbox_gray"
+    app:label_enableDivider="true" />
 ```
 
 --- checkbox_gray.xml
