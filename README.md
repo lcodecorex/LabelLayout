@@ -31,7 +31,7 @@ public interface ILabel {
 
 2. layout布局
 ```xml
-<com.lcodecorex.LabelLayout
+<com.lcodecore.LabelLayout
     android:id="@+id/label_me"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -71,7 +71,7 @@ label_me.setOnCheckChangedListener(new LabelLayout.OnCheckListener() {
 #### 个性化(可参考默认样式：view_label_common.xml)
 --- 主布局
 ```xml
-<com.lcodecorex.LabelLayout
+<com.lcodecore.LabelLayout
     android:id="@+id/label_all"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
